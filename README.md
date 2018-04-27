@@ -34,7 +34,8 @@ function my_metabox_fill($post){
 	?>
 	<input type='text' name='my_field' value="<?= $value ?>" style="width: 100%" />
 	<?php
-}```
+}
+```
 
 Also, we should save our data
 
