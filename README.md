@@ -1,5 +1,5 @@
 # my-programming-howto
-Little howto I made to myself, to remind me how to accomplish certain tasks in given technologies.
+Little howto I made for myself, to remind me how to accomplish certain tasks in given technologies.
 
 For that reason those are aimed primarily at people who already have some knowledge about those tasks. This page shouldn't be treated as a tutorial.
 
