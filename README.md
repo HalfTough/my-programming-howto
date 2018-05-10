@@ -3,11 +3,25 @@ Little howto I made for myself, to remind me how to accomplish certain tasks in 
 
 For that reason those are aimed primarily at people who already have some knowledge about those tasks. This page shouldn't be treated as a tutorial.
 
+# CMake
+
+### Use CMake Variables in code
+in CMakeLists.txt  
+```
+set (MyApp_VERSION_MAJOR 1)
+add_definitions( -DVERSION_MAJOR=${MyApp_VERSION_MAJOR} )
+```
+
+in code
+```cout << VERSION_MAJOR```
+
 # PHP
 ## Wordpress
 ### Create Custom Type
 Just put ```register_post_type( $post_type, $args )``` in any function running on `init`  
  ```add_action( 'init', 'my_func' );``` to run function at init.
+
+`get_posts(array('post_type' => 'my_type', 'posts_per_page' => 10));`
 
 [reference](https://codex.wordpress.org/Function_Reference/register_post_type)
 
